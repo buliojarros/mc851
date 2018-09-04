@@ -7,7 +7,7 @@ import java.util.List;
 
 @Data
 public class ResponseCep {
-    private InternalError totalElements;
-    private List<Integer> address;
+    private Integer totalElements;
+    private List<CepDto> cepList;
     private ResponseStatusCd status;
 }

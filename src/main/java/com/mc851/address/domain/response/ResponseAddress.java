@@ -9,6 +9,6 @@ import java.util.List;
 @Data
 public class ResponseAddress {
     private Integer totalElements;
-    private List<Address> address;
+    private List<AddressDto> addressList;
     private ResponseStatusCd status;
 }
